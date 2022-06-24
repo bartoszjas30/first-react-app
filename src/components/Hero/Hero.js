@@ -3,8 +3,8 @@ import styles from './Hero.module.scss';
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <h1 className={styles.title}>My first React App</h1>
-      <p className={styles.subtitle}>A simple to-do app, with lists, columns and card</p>
+      <h1 className={styles.title}>Twoja, lepsza organizacja</h1>
+      <p className={styles.subtitle}>Prosta lista to do dla wszystkich</p>
     </div>
   );
 };
