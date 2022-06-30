@@ -34,3 +34,12 @@
         }
     }
 }
+
+/* Media */
+@media (max-width: 767px) {
+  .columnForm {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+}

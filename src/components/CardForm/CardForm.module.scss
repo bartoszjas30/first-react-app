@@ -1,17 +1,15 @@
 @import '../../styles/settings.scss';
 
-.columnForm {
-  padding: 10px;
-  text-align: center;
+.cardForm {
   display:block;
 }
 
+
 /* Media */
 @media (max-width: 767px) {
-  .columnForm {
+  .cardForm {
     display:block;
     text-align: center;
     margin: 10px auto;
   }
 }
-
