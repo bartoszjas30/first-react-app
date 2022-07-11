@@ -1,15 +1,10 @@
 @import '../../styles/settings.scss';
 
+
 .cardForm {
-  display:block;
-}
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-
-/* Media */
-@media (max-width: 767px) {
-  .cardForm {
-    display:block;
-    text-align: center;
-    margin: 10px auto;
-  }
 }

@@ -1,17 +1,19 @@
 @import '../../styles/settings.scss';
 
 .columnForm {
-  padding: 10px;
-  text-align: center;
-  display:block;
+padding: 10px;
+text-align: center;
+input{
+  margin: 10px 10px;
+}
 }
 
-/* Media */
-@media (max-width: 767px) {
-  .columnForm {
-    display:block;
-    text-align: center;
-    margin: 10px auto;
+@media (max-width: 720px){
+  .columnForm{
+    display: flex;
+    flex-direction: column;
+    button{
+      margin-top: 20px;
+    }
   }
 }
-
